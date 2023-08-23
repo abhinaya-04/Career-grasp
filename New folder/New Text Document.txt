@@ -1,0 +1,45 @@
+--
+-- Database: `testing`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `review_table`
+--
+
+CREATE TABLE `review_table` (
+  `review_id` int(11) NOT NULL,
+  `user_name` varchar(200) NOT NULL,
+  `user_rating` int(1) NOT NULL,
+  `datetime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `review_table`
+--
+
+INSERT INTO `review_table` (`review_id`, `user_name`, `user_rating`, `datetime`) VALUES
+(6, 'rithvitha_medi', 4, 'amazing websiite', 1621935691),
+(7, 'susrutha', 5, 'easy to understand the courses and there paths', 1621939888),
+(8, 'abhinaya', 4, 'good website for career guidence', 1621940010);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `review_table`
+--
+ALTER TABLE `review_table`
+  ADD PRIMARY KEY (`review_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `review_table`
+--
+ALTER TABLE `review_table`
+  MODIFY `review_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
