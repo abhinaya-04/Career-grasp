@@ -1,4 +1,4 @@
-ow to run the Blood Bank & Donor Management System Using PHP and MySQL
+how to run the career grasp t System Using PHP and MySQL
 
 1. Download the zip file
 
